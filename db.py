@@ -23,7 +23,7 @@ import MMA.lib
 
 APP_ID = 'imint'
 REMOTE_API_PATH = '/remote_api'
-SERVER = 'localhost:8080'
+SERVER = 'localhost:8800'
 
 def auth_func():
   email_address = 'test@gmail.com' 
@@ -39,7 +39,7 @@ def initialize_remote_api(app_id=APP_ID,
 
 
 def addSysUser():
-  sysuser= MMA.lib.User(name = 'root',  password = '1u01ne',  email = 'dragonlist@gmail.com') 
+  sysuser= MMA.lib.User(name = 'root',  password = 'ttt',  email = 'test@gmail.com') 
   sysuser.put()
 
 def addProject():
